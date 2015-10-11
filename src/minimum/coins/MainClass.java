@@ -17,6 +17,7 @@ public class MainClass{
 		 System.out.println("Please enter amount of change. (1-99)");
 		 userNumber = userInput.nextInt();
 		 
+		 //Loops to figure out the needed amount of change for each variable.
 		 if (userNumber >= 25)
 		 {
 			 while (userNumber >= 25)
